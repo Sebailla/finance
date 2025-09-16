@@ -1,0 +1,66 @@
+.
+├── README.md
+├── dist
+│   ├── app.controller.d.ts
+│   ├── app.controller.js
+│   ├── app.controller.js.map
+│   ├── app.module.d.ts
+│   ├── app.module.js
+│   ├── app.module.js.map
+│   ├── app.service.d.ts
+│   ├── app.service.js
+│   ├── app.service.js.map
+│   ├── categories
+│   ├── common
+│   ├── config
+│   ├── id-validation
+│   ├── main.d.ts
+│   ├── main.js
+│   ├── main.js.map
+│   └── tsconfig.build.tsbuildinfo
+├── eslint.config.mjs
+├── estructura.txt
+├── nest-cli.json
+├── node_modules
+│   ├── @eslint
+│   ├── @nestjs
+│   ├── @types
+│   ├── class-transformer -> .pnpm/class-transformer@0.5.1/node_modules/class-transformer
+│   ├── class-validator -> .pnpm/class-validator@0.14.2/node_modules/class-validator
+│   ├── eslint -> .pnpm/eslint@9.35.0/node_modules/eslint
+│   ├── eslint-config-prettier -> .pnpm/eslint-config-prettier@10.1.8_eslint@9.35.0/node_modules/eslint-config-prettier
+│   ├── eslint-plugin-prettier -> .pnpm/eslint-plugin-prettier@5.5.4_@types+eslint@9.6.1_eslint-config-prettier@10.1.8_eslint@9_cd1357f04ef0a8908473ba37c02c6b35/node_modules/eslint-plugin-prettier
+│   ├── globals -> .pnpm/globals@16.4.0/node_modules/globals
+│   ├── jest -> .pnpm/jest@30.1.3_@types+node@22.18.3_ts-node@10.9.2_@types+node@22.18.3_typescript@5.9.2_/node_modules/jest
+│   ├── pg -> .pnpm/pg@8.16.3/node_modules/pg
+│   ├── pnpm -> .pnpm/pnpm@10.16.1/node_modules/pnpm
+│   ├── prettier -> .pnpm/prettier@3.6.2/node_modules/prettier
+│   ├── reflect-metadata -> .pnpm/reflect-metadata@0.2.2/node_modules/reflect-metadata
+│   ├── rxjs -> .pnpm/rxjs@7.8.2/node_modules/rxjs
+│   ├── source-map-support -> .pnpm/source-map-support@0.5.21/node_modules/source-map-support
+│   ├── supertest -> .pnpm/supertest@7.1.4/node_modules/supertest
+│   ├── ts-jest -> .pnpm/ts-jest@29.4.1_@babel+core@7.28.4_@jest+transform@30.1.2_@jest+types@30.0.5_babel-jest@_b096f6f20c443b302db8510f5f7e726f/node_modules/ts-jest
+│   ├── ts-loader -> .pnpm/ts-loader@9.5.4_typescript@5.9.2_webpack@5.100.2/node_modules/ts-loader
+│   ├── ts-node -> .pnpm/ts-node@10.9.2_@types+node@22.18.3_typescript@5.9.2/node_modules/ts-node
+│   ├── tsconfig-paths -> .pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths
+│   ├── typeorm -> .pnpm/typeorm@0.3.26_pg@8.16.3_reflect-metadata@0.2.2_ts-node@10.9.2_@types+node@22.18.3_typescript@5.9.2_/node_modules/typeorm
+│   ├── typescript -> .pnpm/typescript@5.9.2/node_modules/typescript
+│   └── typescript-eslint -> .pnpm/typescript-eslint@8.43.0_eslint@9.35.0_typescript@5.9.2/node_modules/typescript-eslint
+├── ormlogs.log
+├── package.json
+├── pnpm-lock.yaml
+├── src
+│   ├── app.controller.ts
+│   ├── app.module.ts
+│   ├── app.service.ts
+│   ├── categories
+│   ├── common
+│   ├── config
+│   └── main.ts
+├── test
+│   ├── app.e2e-spec.ts
+│   └── jest-e2e.json
+├── tsconfig.build.json
+└── tsconfig.json
+
+36 directories, 28 files
