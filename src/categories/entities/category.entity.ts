@@ -1,4 +1,6 @@
-import { Column, Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn } from 'typeorm';
+
+import { Product } from 'src/products/entities/products.entity';
+import { Column, Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, OneToMany } from 'typeorm';
 
 @Entity({ name: 'categories' })
 export class Category {
@@ -14,5 +16,10 @@ export class Category {
 
     @UpdateDateColumn({ type: 'timestamptz' })
     updatedAt: Date;  // Fecha de actualización automática
+
+    /* Relaciones */
+
+    @OneToMany(()=> Product, (product) => product.category, { cascade: true })
+    products: Product[];
 }
 

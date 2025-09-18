@@ -5,6 +5,7 @@ import { CategoriesModule } from './categories/categories.module';
 import { ConfigModule} from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { typeORMConfig } from './config/typeORM.config';
+import { ProductsModule } from './products/products.module';
 
 @Module({
   imports: [
@@ -15,6 +16,7 @@ import { typeORMConfig } from './config/typeORM.config';
       useFactory: typeORMConfig,
     }),
     CategoriesModule,
+    ProductsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
