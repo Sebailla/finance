@@ -1,10 +1,12 @@
-import { Category } from 'src/categories/entities/category.entity';
+import { Category } from '../../categories/entities/category.entity';
+import { TransactionContents } from '../../transactions/entities/transaction.entity';
 import {
     Column,
     CreateDateColumn,
     Entity,
     JoinColumn,
     ManyToOne,
+    OneToMany,
     PrimaryGeneratedColumn,
     UpdateDateColumn,
 } from 'typeorm';
@@ -50,4 +52,7 @@ export class Product {
 
     @Column()
     categoryId: string;
+
+
+    
 }
